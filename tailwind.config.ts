@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: "media", // or "class" if you want manual toggling
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +12,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      spacing: {
+        15: "3.75rem",
+      },
+      borderRadius: {
+        base: "0.25rem",
       },
       fontFamily: {
         armenian: ["var(--font-armenian)", "sans-serif"],

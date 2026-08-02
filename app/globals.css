@@ -1,28 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import "flowbite/dist/flowbite.min.css";
-@import "../node_modules/flowbite-datepicker/tailwind.css";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-/* optional: small mapping helpers (see #2) */
-.bg-background { background: var(--background); }
-.text-foreground { color: var(--foreground); }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-calligraphy: "Great Vibes", cursive;
-}
-
-@media (prefers-color-scheme: dark) {
+@import "tailwindcss";
+ 
+ @import "flowbite/dist/flowbite.min.css";
+ @import "../node_modules/flowbite-datepicker/tailwind.css";
+ 
+ :root {
+   --background: #ffffff;
+   --foreground: #171717;
+ }
+ @theme inline {
+   --color-background: var(--background);
+   --color-foreground: var(--foreground);
+   --font-calligraphy: "Great Vibes", cursive;
+ }
+ 
+ @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
