@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "flowbite/dist/flowbite.min.css";
 @import "../node_modules/flowbite-datepicker/tailwind.css";
 
@@ -6,6 +9,10 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+
+/* optional: small mapping helpers (see #2) */
+.bg-background { background: var(--background); }
+.text-foreground { color: var(--foreground); }
 
 @theme inline {
   --color-background: var(--background);
