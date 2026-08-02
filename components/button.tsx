@@ -18,7 +18,7 @@ export default function Button({
         {contentType === "text" ? (
           <p
             className={
-              "m-0 bg-transparent hover:bg-gray-300 text-amber-400 text-3xl font-calligraphy pt-7 pb-13 my-0 px-4 h-full text-center leading-none rounded-2xl"
+              "m-0 bg-transparent hover:bg-gray-300 text-amber-400 text-3xl font-armenian pt-7 pb-13 my-0 px-4 h-full text-center leading-none rounded-2xl"
             }
           >
             {children}
