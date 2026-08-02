@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Gallery() {
   return (
     <>
-      <h1 className="text-5xl! font-bold font-armenian mt-15! mb-5!">Պատկերասրահ</h1>
+      <h1 className="text-5xl font-bold font-armenian mt-15 mb-5">
+        Պատկերասրահ
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="grid gap-4">
           <div>

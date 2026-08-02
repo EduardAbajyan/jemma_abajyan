@@ -2,11 +2,12 @@ export default function SocialMedia() {
   return (
     <section className="mx-auto w-full max-w-md rounded-3xl border border-border/40 bg-background/80 p-6 shadow-lg shadow-border/5 backdrop-blur-sm text-foreground">
       <div className="flex flex-col items-center gap-4 text-center">
-        <h1 className="text-5xl! font-bold font-armenian tracking-tight">
+        <h1 className="text-5xl font-bold font-armenian tracking-tight">
           Սոցցանցեր
         </h1>
         <p className="max-w-sm text-md text-foreground/70">
-          Կարող եք կապ հաստատել ինձ հետ սոցցանցերում՝ թարմացումների և առանց միջնորդի խոսակցություն սկսելու համար։
+          Կարող եք կապ հաստատել ինձ հետ սոցցանցերում՝ թարմացումների և առանց
+          միջնորդի խոսակցություն սկսելու համար։
         </p>
       </div>
 
